@@ -37,6 +37,9 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Create empty CHANGELOG.md if not exists
+        run: touch CHANGELOG.md
+
       - name: Generate changelog
         id: changelog
         uses: TriPSs/conventional-changelog-action@v4
@@ -48,11 +51,14 @@ jobs:
           tag-prefix: 'v'
           output-file: 'CHANGELOG.md'
           skip-git-pull: 'true'
+          skip-on-empty: 'false'
+          create-summary: 'true'
 
       - name: Create Release
         uses: softprops/action-gh-release@v1
+        if: steps.changelog.outputs.skipped == 'false'
         with:
-          body_path: CHANGELOG.md
+          body: ${{ steps.changelog.outputs.clean_changelog }}
           files: |
             dist/*
             manifest.json
