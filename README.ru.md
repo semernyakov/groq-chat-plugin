@@ -1,10 +1,94 @@
 # Groq Chat Plugin для Obsidian
 
-[![Версия](https://img.shields.io/badge/Версия-v1.2.0-blue 'Текущая версия плагина')](https://github.com/semernyakov/groq-chat-plugin/releases)
-[![Лицензия](https://img.shields.io/badge/Лицензия-MIT-green 'Лицензия MIT')](https://github.com/semernyakov/groq-chat-plugin/blob/master/LICENSE)
-[![CI/CD](https://img.shields.io/github/actions/workflow/status/semernyakov/groq-chat-plugin/ci.yml?branch=master&label=Сборка 'Статус сборки')](https://github.com/semernyakov/groq-chat-plugin/actions)
-[![Покрытие тестами](https://img.shields.io/codecov/c/github/semernyakov/groq-chat-plugin 'Покрытие кода тестами')](https://codecov.io/gh/semernyakov/groq-chat-plugin)
-[![Загрузки](https://img.shields.io/badge/dynamic/json?logo=obsidian&color=7963E6&label=загрузки&query=downloads&url=https://raw.githubusercontent.com/obsidianmd/obsidian-releases/master/community-plugins.json 'Количество загрузок в Obsidian')](https://obsidian.md/plugins?id=groq-chat-plugin)
+[![Релиз](https://img.shields.io/github/v/release/semernyakov/groq-chat-plugin?style=flat-square&label=релиз)](https://github.com/semernyakov/groq-chat-plugin/releases/latest)
+[![Загрузки](https://img.shields.io/github/downloads/semernyakov/groq-chat-plugin/total?style=flat-square&label=загрузки)](https://github.com/semernyakov/groq-chat-plugin/releases)
+[![Лицензия](https://img.shields.io/github/license/semernyakov/groq-chat-plugin?style=flat-square&label=лицензия)](LICENSE)
+[![Тесты](https://img.shields.io/github/actions/workflow/status/semernyakov/groq-chat-plugin/ci.yml?branch=master&label=тесты&style=flat-square)](https://github.com/semernyakov/groq-chat-plugin/actions)
+[![Покрытие](https://img.shields.io/codecov/c/github/semernyakov/groq-chat-plugin?style=flat-square&label=покрытие)](https://codecov.io/gh/semernyakov/groq-chat-plugin)
+[![NPM](https://img.shields.io/npm/v/groq-chat-plugin?style=flat-square&label=npm)](https://www.npmjs.com/package/groq-chat-plugin)
+
+[English version](README.md)
+
+Плагин для [Obsidian](https://obsidian.md), который интегрирует возможности чата с AI от Groq прямо в ваши заметки.
+
+## Возможности
+
+- Прямая интеграция с моделями Groq AI
+- Интерфейс чата в реальном времени
+- Поддержка последних моделей Groq
+- Поддержка форматирования Markdown
+- Подсветка кода
+- Поддержка мобильных устройств
+- Выбор пользовательских моделей
+- История чата
+- Контекстно-зависимые ответы
+
+## Установка
+
+1. Откройте настройки Obsidian
+2. Перейдите в раздел Community Plugins и отключите безопасный режим
+3. Нажмите "Обзор" и найдите "Groq Chat"
+4. Установите плагин
+5. Включите плагин в разделе Community Plugins
+
+## Настройка
+
+1. Получите API ключ на [Groq Console](https://console.groq.com)
+2. Откройте настройки плагина в Obsidian
+3. Введите ваш API ключ
+4. Настройте дополнительные параметры по необходимости
+
+## Использование
+
+1. Откройте любую заметку
+2. Нажмите на иконку Groq Chat в боковой панели
+3. Начните общение с AI
+4. Используйте команды с `/` для дополнительных функций
+
+## Разработка
+
+```bash
+# Клонировать репозиторий
+git clone https://github.com/semernyakov/groq-chat-plugin.git
+
+# Установить зависимости
+npm install
+
+# Запустить сервер разработки
+npm run dev
+
+# Собрать плагин
+npm run build
+
+# Запустить тесты
+npm run test
+
+# Проверить стиль кода
+npm run lint
+```
+
+## Участие в разработке
+
+Мы приветствуем ваше участие! Пожалуйста, прочтите наше [Руководство по участию](CONTRIBUTING.ru.md) для получения информации о кодексе поведения и процессе отправки pull request'ов.
+
+## Безопасность
+
+По вопросам безопасности, пожалуйста, ознакомьтесь с нашей [Политикой безопасности](SECURITY.ru.md) и сообщайте об уязвимостях ответственно.
+
+## Лицензия
+
+Этот проект лицензирован под MIT License - см. файл [LICENSE](LICENSE) для подробностей.
+
+## Поддержка
+
+Если вы находите этот плагин полезным, рассмотрите возможность:
+- [Поставить звезду репозиторию](https://github.com/semernyakov/groq-chat-plugin)
+- [Поддержать разработку](https://github.com/sponsors/semernyakov)
+- [Сообщить о проблеме](https://github.com/semernyakov/groq-chat-plugin/issues)
+
+## История изменений
+
+См. [CHANGELOG.ru.md](CHANGELOG.ru.md) для всех изменений.
 
 ## 📝 Описание
 
