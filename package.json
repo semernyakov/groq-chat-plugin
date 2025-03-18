@@ -30,8 +30,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
-    "type-check": "tsc --noEmit",
-    "build:demo": "cd docs/demo && npm run build"
+    "type-check": "tsc --noEmit"
   },
   "keywords": [
     "obsidian",
