@@ -3,7 +3,7 @@
 [![Релиз](https://img.shields.io/github/v/release/semernyakov/groq-chat-plugin?style=flat-square&label=релиз)](https://github.com/semernyakov/groq-chat-plugin/releases/latest)
 [![Загрузки](https://img.shields.io/github/downloads/semernyakov/groq-chat-plugin/total?style=flat-square&label=загрузки)](https://github.com/semernyakov/groq-chat-plugin/releases)
 [![Лицензия](https://img.shields.io/github/license/semernyakov/groq-chat-plugin?style=flat-square&label=лицензия)](LICENSE)
-[![Тесты](https://img.shields.io/github/actions/workflow/status/semernyakov/groq-chat-plugin/ci.yml?branch=master&label=тесты&style=flat-square)](https://github.com/semernyakov/groq-chat-plugin/actions)
+[![Тесты](https://img.shields.io/github/actions/workflow/status/semernyakov/groq-chat-plugin/ci.yml?branch=master&style=flat-square&label=тесты)](https://github.com/semernyakov/groq-chat-plugin/actions/workflows/ci.yml)
 [![Покрытие](https://img.shields.io/codecov/c/github/semernyakov/groq-chat-plugin?style=flat-square&label=покрытие)](https://codecov.io/gh/semernyakov/groq-chat-plugin)
 [![NPM](https://img.shields.io/npm/v/groq-chat-plugin?style=flat-square&label=npm)](https://www.npmjs.com/package/groq-chat-plugin)
 
