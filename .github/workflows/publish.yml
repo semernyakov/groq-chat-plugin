@@ -28,10 +28,12 @@ jobs:
 
       - name: Generate changelog
         id: changelog
-        uses: conventional-changelog/conventional-changelog-action@v3
+        uses: TriPSs/conventional-changelog-action@v4
         with:
-          config: conventional-changelog-conventionalcommits
-          preset: angular
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          version-file: './package.json,./manifest.json'
+          git-message: 'chore(release): {version}'
+          preset: 'angular'
           tag-prefix: 'v'
           output-file: 'CHANGELOG.md'
 
